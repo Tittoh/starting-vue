@@ -10,7 +10,6 @@ if (process.env.NODE_ENV !== 'test') {
   app.use(logger('dev'));
 }
 
-
 // Parse incoming request data
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));

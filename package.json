@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "test": "NODE_ENV=test sequelize db:migrate && nyc mocha --exit",
+    "test": "nyc mocha --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
