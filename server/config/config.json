@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "tittoh",
+    "password": null,
+    "database": "cake_boss_dev",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "cake_boss_test",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres",
+    "logging": false
+  }
+}
